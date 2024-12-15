@@ -1,35 +1,13 @@
-package com.obando.springcloud.msvc.entities;
-
-import jakarta.persistence.*;
+package com.obando.springcloud.msvc.items.models;
 
 import java.time.LocalDate;
 
-@Entity
-@Table(name = "products")
 public class Product {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Double price;
-
-    @Column(name = "created_at")
     private LocalDate createdAt;
-
-    @Transient
-    private int port;
-
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(int port) {
-        this.port = port;
-    }
-
-    public Product() {
-    }
 
     public Long getId() {
         return id;

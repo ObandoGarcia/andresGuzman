@@ -5,12 +5,13 @@ import com.obando.springcloud.msvc.services.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/api/products")
 public class ProductController {
 
     private final ProductService productService;
@@ -20,12 +21,12 @@ public class ProductController {
     }
 
     @GetMapping
-    public List<Product> list(){
-        return this.productService.findAll();
+    public ResponseEntity<?> list(){
+        return ResponseEntity.ok(this.productService.findAll());
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Product> details(@PathVariable Long id){
+    public ResponseEntity<?> details(@PathVariable Long id){
         Optional<Product> productOptional = productService.findById(id);
 
         if(productOptional.isPresent()){
