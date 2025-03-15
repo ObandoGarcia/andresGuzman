@@ -3,7 +3,6 @@ package com.obando.curso.spring.app.springboot.crud.controllers;
 import com.obando.curso.spring.app.springboot.crud.entities.Product;
 import com.obando.curso.spring.app.springboot.crud.services.ProductService;
 import jakarta.validation.Valid;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
