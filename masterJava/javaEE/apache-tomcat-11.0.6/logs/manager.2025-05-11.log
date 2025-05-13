@@ -1,0 +1,13 @@
+11-May-2025 12:31:49.216 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+11-May-2025 12:31:49.216 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+11-May-2025 12:31:49.220 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webApp'
+11-May-2025 12:31:49.220 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\joseo\OneDrive\Documentos\GitHub\andresGuzman\masterJava\javaEE\apache-tomcat-11.0.6\webapps\webApp.war.tmp
+11-May-2025 12:35:28.595 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+11-May-2025 12:35:28.595 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+11-May-2025 12:35:28.601 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+11-May-2025 12:39:04.399 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webApp'
+11-May-2025 12:39:04.399 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\joseo\OneDrive\Documentos\GitHub\andresGuzman\masterJava\javaEE\apache-tomcat-11.0.6\webapps\webApp.war.tmp
+11-May-2025 13:07:12.136 INFORMACIÓN [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webApp'
+11-May-2025 13:07:12.136 INFORMACIÓN [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\joseo\OneDrive\Documentos\GitHub\andresGuzman\masterJava\javaEE\apache-tomcat-11.0.6\webapps\webApp.war.tmp
+11-May-2025 13:08:55.382 INFORMACIÓN [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webApp'
+11-May-2025 13:08:55.382 INFORMACIÓN [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\joseo\OneDrive\Documentos\GitHub\andresGuzman\masterJava\javaEE\apache-tomcat-11.0.6\webapps\webApp.war.tmp
